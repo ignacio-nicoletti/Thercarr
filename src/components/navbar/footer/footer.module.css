@@ -1,0 +1,31 @@
+.contain {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #0399d9;
+  font-family: 'Oswald', sans-serif;
+}
+
+.adress {
+  padding-left: 2rem;
+}
+
+.social {
+  padding-right: 2rem;
+}
+
+@media (max-width: 870px) {
+  .contain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  .adress {
+    padding-left: 0;
+  }
+
+  .social {
+    padding-right: 0;
+  }
+}

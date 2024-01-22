@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.AboutContain {
+  font-family: "Oswald", sans-serif;
+}
+
+.dataContain {
+  padding-block: 10rem;
+  margin-inline: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+}
+.dataContain h4 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.dataContain p {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.misionContain {
+  background-color: #0399d9;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.visionContain {
+  background-color: #0399d9;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.formaContain {
+  background-color: #0399d9;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.misionContain p,
+.visionContain p,
+.formaContain p {
+  text-align: start;
+}
+.misionContain,
+.visionContain,
+.formaContain h4 {
+  text-align: center;
+}
