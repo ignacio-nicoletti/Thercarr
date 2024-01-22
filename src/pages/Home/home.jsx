@@ -39,6 +39,7 @@ const Home = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          title="banner"
         />
       </div>
       {/* Horarios */}
