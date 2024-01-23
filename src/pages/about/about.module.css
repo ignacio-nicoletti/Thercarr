@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-
 }
 .dataContain h4 {
   font-size: 3rem;
@@ -47,8 +46,26 @@
 .formaContain p {
   text-align: start;
 }
-.misionContain,
-.visionContain,
+.misionContain h4,
+.visionContain h4,
 .formaContain h4 {
   text-align: center;
+}
+
+@media (max-width: 870px) {
+  .dataContain {
+    margin-inline: 1rem;
+    gap: 1rem;
+  }
+
+  .misionContain p,
+  .visionContain p,
+  .formaContain p {
+    text-align: center;
+  }
+  .misionContain h4,
+  .visionContain h4,
+  .formaContain h4 {
+    text-align: center;
+  }
 }

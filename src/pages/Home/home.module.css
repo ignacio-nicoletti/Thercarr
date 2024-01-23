@@ -67,16 +67,25 @@
   cursor: pointer;
 }
 
-
 @media (max-width: 870px) {
   .imgbanner {
     height: 40vh;
   }
+
   .banner p {
-    left: 5%;
-    top: 10%;
+    left: 2rem;
+    top: 5rem;
   }
+
   .horariosContain {
     margin-left: 1rem;
+  }
+
+  .services {
+    padding: 0.5rem;
+  }
+  .horariosContain {
+    flex-direction: column;
+    margin-bottom: 1rem;
   }
 }

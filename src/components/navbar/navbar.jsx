@@ -72,9 +72,9 @@ export const Navbar = () => {
               <NavLink to="/" className={styles.linkMobile}>
                 Inicio
               </NavLink>
-              <a href="#service" className={styles.linkMobile}> Servicios </a>
-              <a href="#ubication" className={styles.linkMobile}> Ubicacion </a>
-              <a href="#horarios" className={styles.linkMobile}>Contacto </a>
+              <a href="/#service" className={styles.linkMobile}> Servicios </a>
+              <a href="/#ubication" className={styles.linkMobile}> Ubicacion </a>
+              <a href="/#horarios" className={styles.linkMobile}>Contacto </a>
               <NavLink to="/about" className={styles.linkMobile}>
                 Nosotros
               </NavLink>
