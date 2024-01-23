@@ -79,6 +79,7 @@
   padding: 1rem;
   width: 400px;
   transition: 2s;
+  background-color: #0399d971;
 }
 
 .mantenimiento:hover p,
@@ -104,6 +105,7 @@
   border-radius: 10px;
   font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
+  border: 3px solid black;
 }
 
 .horariosContain a {

@@ -11,7 +11,6 @@ export const Navbar = () => {
       <div className={styles.contain}>
         <div className={styles.logo}>
           <NavLink to="/"><img src={logo} alt="logo" /></NavLink>
-
         </div>
         <div className={styles.routes}>
           <NavLink to="/" className={styles.link}>

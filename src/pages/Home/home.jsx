@@ -22,13 +22,25 @@ const Home = () => {
       <div className={style.servicesContainMain}>
         <h2 id="service">Servicios</h2>
         <div className={style.servicesContain}>
-          <div className={`${style.services} ${style.mantenimiento}`}>
+          <div
+            className={`${style.services} ${style.mantenimiento}`}
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <p>Mantenimiento y reparación de unidades frigoríficas.</p>
           </div>
-          <div className={`${style.services} ${style.center}`}>
+          <div
+            className={`${style.services} ${style.center}`}
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <p>Contamos con stock en todos los repuestos originales.</p>
           </div>
-          <div className={`${style.services} ${style.auxilio}`}>
+          <div
+            className={`${style.services} ${style.auxilio}`}
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <p>
               {' '}
               Servicios de auxilio en ruta, como así una linea de comunicación 24/7.
