@@ -2,9 +2,6 @@ import {Navbar} from '../../components/navbar/navbar';
 import style from './home.module.css';
 import banner from '../../assets/banner-home.jpg';
 import {Footer} from '../../components/navbar/footer/footer';
-import mantenimiento from '../../assets/repaciones.png';
-import reparacion from '../../assets/repuestos.png';
-import auxilio from '../../assets/servicio.png';
 
 const Home = () => {
   return (
