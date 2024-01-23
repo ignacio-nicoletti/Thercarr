@@ -20,7 +20,7 @@
 .dataContain p {
   font-size: 2rem;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
 .misionContain {
@@ -50,12 +50,14 @@
 .visionContain h4,
 .formaContain h4 {
   text-align: center;
+  font-size: 2.5rem;
 }
 
 @media (max-width: 870px) {
   .dataContain {
     margin-inline: 1rem;
     gap: 1rem;
+    padding-bottom: 3rem;
   }
 
   .misionContain p,

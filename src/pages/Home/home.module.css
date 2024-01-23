@@ -29,38 +29,85 @@
   width: 100%;
 }
 
+.servicesContainMain {
+  display: flex;
+  flex-direction: column;
+}
+
 .servicesContain {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 
 .services {
+  background-color: red;
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 100%;
   height: 300px;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.mantenimiento {
+  background-image: url("../../assets/repaciones.png");
+}
 .center {
-  border-inline: 1px #0399d9 solid;
+  background-image: url("../../assets/repuestos.png");
+}
+.auxilio {
+  background-image: url("../../assets/servicio.png");
+  background-position: 0;
+}
+
+.mantenimiento:hover img,
+.center:hover img,
+.auxilio:hover img {
+  filter: saturate(100%);
+  transition: 2s;
+}
+
+.mantenimiento p,
+.center p,
+.auxilio p {
+  color: white;
+  padding: 1rem;
+  width: 400px;
+  transition: 2s;
+}
+
+.mantenimiento:hover p,
+.auxilio:hover p,
+.center:hover p {
+  transition: 2s;
+  filter: saturate(100%);
+  background-color: #0399d9;
 }
 
 .horariosContain {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-evenly;
   align-items: center;
 }
 
 .horariosContain button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   background-color: #0399d9;
   padding: 1rem;
   border-radius: 10px;
   font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
+}
+
+.horariosContain a {
+  text-decoration: none;
 }
 
 .horariosContain button:hover {
@@ -81,9 +128,19 @@
     margin-left: 1rem;
   }
 
-  .services {
-    padding: 0.5rem;
+  .servicesContain {
+    /* flex-direction: column; */
+    padding-bottom: 1rem;
   }
+
+  .servicesContain p {
+    padding: 1rem;
+  }
+
+  .servicesContainMain {
+    margin-bottom: 1.5rem;
+  }
+
   .horariosContain {
     flex-direction: column;
     margin-bottom: 1rem;

@@ -13,7 +13,7 @@ const About = () => {
           data-aos-duration="3000"
         >
 
-          <h4>¿ Cuál es nuestra misión ?</h4>
+          <h4>¿Cuál es nuestra misión?</h4>
           <p>
             En Thercarr, nos dedicamos apasionadamente a proporcionar soluciones de refrigeración de
             vanguardia para el transporte, impulsando la frescura y la seguridad de los productos perecederos en
@@ -28,7 +28,7 @@ const About = () => {
           data-aos="fade-left"
           data-aos-duration="3000"
         >
-          <h4>¿ Qué visión tenemos ?</h4>
+          <h4>¿Qué visión tenemos?</h4>
           <p>
             Thercarr se visualiza como un líder en la industria de refrigeración para el transporte en
             Argentina, con un enfoque global y una presencia sólida en América del Sur, incluyendo 2 sucursales
@@ -44,7 +44,7 @@ const About = () => {
           data-aos-duration="3000"
         >
           <h4>
-            ¿ A quién ? y ¿ Cómo ?
+            ¿A quién? y ¿Cómo?
           </h4>
           <p>
             Empresas de Transporte y Logística, Clientes Minoristas y Consumidores Finales,
