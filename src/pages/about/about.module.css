@@ -36,8 +36,23 @@
 }
 
 .subDivContain img {
-  width: 300px;
+  width: 30%;
   border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 1300px) {
+ 
+  .subDivContain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .subDivContain img {
+    display: none;
+  }
 }
 
 @media (max-width: 870px) {
@@ -54,10 +69,13 @@
   .subDivContain {
     text-align: center;
   }
-
+  .subDivContain p {
+    font-size: 1rem;
+  }
+  .divContain h4 {
+    font-size: 1.5rem;
+  }
   .subDivContain img {
     display: none;
-    width: 300px;
-    border-radius: 10px;
   }
 }
