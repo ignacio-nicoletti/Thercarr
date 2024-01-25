@@ -43,7 +43,6 @@
 }
 
 .services {
-  background-color: red;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -66,7 +65,6 @@
   background-image: url("../../assets/servicio.png");
   background-position: 0;
 }
-
 
 .mantenimiento p,
 .center p,
@@ -112,9 +110,9 @@
   cursor: pointer;
 }
 
-.buttonContac a{
+.buttonContac a,
+.buttonContac button {
   text-decoration: none;
-
 }
 @media (max-width: 870px) {
   .imgbanner {
