@@ -2,6 +2,7 @@
 
 .AboutContain {
   font-family: "Oswald", sans-serif;
+  background-color: #b9b9b9d5;
 }
 
 .dataContain {
@@ -20,37 +21,23 @@
 .dataContain p {
   font-size: 2rem;
   margin: 0;
-  padding: 1rem;
 }
 
-.misionContain {
+.divContain {
   background-color: #0399d9;
   border-radius: 15px;
   padding: 1rem;
 }
 
-.visionContain {
-  background-color: #0399d9;
-  border-radius: 15px;
-  padding: 1rem;
-}
-
-.formaContain {
-  background-color: #0399d9;
-  border-radius: 15px;
-  padding: 1rem;
-}
-
-.misionContain p,
-.visionContain p,
-.formaContain p {
+.subDivContain {
+  display: flex;
+  gap: 20px;
   text-align: start;
 }
-.misionContain h4,
-.visionContain h4,
-.formaContain h4 {
-  text-align: center;
-  font-size: 2.5rem;
+
+.subDivContain img {
+  width: 300px;
+  border-radius: 10px;
 }
 
 @media (max-width: 870px) {
@@ -60,14 +47,17 @@
     padding-bottom: 3rem;
   }
 
-  .misionContain p,
-  .visionContain p,
-  .formaContain p {
+  .divContain {
+    margin-inline: 1rem;
+  }
+
+  .subDivContain {
     text-align: center;
   }
-  .misionContain h4,
-  .visionContain h4,
-  .formaContain h4 {
-    text-align: center;
+
+  .subDivContain img {
+    display: none;
+    width: 300px;
+    border-radius: 10px;
   }
 }

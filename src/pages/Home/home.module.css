@@ -2,6 +2,7 @@
 
 .contain {
   font-family: "Oswald", sans-serif;
+  background-color: #b9b9b9d5;
 }
 
 .banner {
@@ -52,6 +53,7 @@
   font-size: 1.5rem;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 15px;
 }
 
 .mantenimiento {
@@ -65,12 +67,6 @@
   background-position: 0;
 }
 
-.mantenimiento:hover img,
-.center:hover img,
-.auxilio:hover img {
-  filter: saturate(100%);
-  transition: 2s;
-}
 
 .mantenimiento p,
 .center p,

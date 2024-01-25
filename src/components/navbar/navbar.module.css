@@ -41,6 +41,7 @@
 }
 
 @media (max-width: 870px) {
+  
   .contain {
     display: none;
   }

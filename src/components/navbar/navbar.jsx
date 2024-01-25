@@ -19,7 +19,11 @@ export const Navbar = () => {
           <a href="/#service" className={styles.link}> Servicios </a>
           <a href="/#ubication" className={styles.link}> Ubicacion </a>
           <a href="/#horarios" className={styles.link}>Contacto </a>
-          <NavLink to="/about" className={styles.link}>
+          <NavLink
+            to="/about"
+            className={styles.link}
+            onClick={window.scroll (0, 0)}
+          >
             Nosotros
           </NavLink>
 
@@ -72,9 +76,15 @@ export const Navbar = () => {
                 Inicio
               </NavLink>
               <a href="/#service" className={styles.linkMobile}> Servicios </a>
-              <a href="/#ubication" className={styles.linkMobile}> Ubicacion </a>
+              <a href="/#ubication" className={styles.linkMobile}>
+                {' '}Ubicacion{' '}
+              </a>
               <a href="/#horarios" className={styles.linkMobile}>Contacto </a>
-              <NavLink to="/about" className={styles.linkMobile}>
+              <NavLink
+                to="/about"
+                className={styles.linkMobile}
+                onClick={window.scroll (0, 0)}
+              >
                 Nosotros
               </NavLink>
             </div>
