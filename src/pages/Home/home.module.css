@@ -112,6 +112,10 @@
   cursor: pointer;
 }
 
+.buttonContac a{
+  text-decoration: none;
+
+}
 @media (max-width: 870px) {
   .imgbanner {
     height: 40vh;

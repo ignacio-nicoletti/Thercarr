@@ -72,7 +72,7 @@ const Home = () => {
             De lunes a viernes de 8:00hs a 18:00hs
           </p>
         </div>
-        <div>
+        <div className={style.buttonContac}>
 
           <a
             href="https://wa.me/+5492615090522"
