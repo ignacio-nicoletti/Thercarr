@@ -12,7 +12,7 @@ const About = () => {
       <Navbar />
       <div className={style.dataContain}>
         <div
-          className={`${style.divContain} ${style.mision} `}
+          className={`${style.divContain} ${style.nosotros} `}
           data-aos="fade-left"
           data-aos-duration="3000"
         >
