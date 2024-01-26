@@ -2,14 +2,32 @@ import {Footer} from '../../components/navbar/footer/footer';
 import {Navbar} from '../../components/navbar/navbar';
 import style from './about.module.css';
 import scannia from '../../assets/repuesto.png';
-import reparacion from "../../assets/reparaciones.png"
-import truckred from "../../assets/truckRed.png"
+import reparacion from '../../assets/reparaciones.png';
+import truckred from '../../assets/truckRed.png';
+import camioneta from '../../assets/thercarCamioneta.jpg';
 
 const About = () => {
   return (
     <div className={style.AboutContain}>
       <Navbar />
       <div className={style.dataContain}>
+        <div
+          className={`${style.divContain} ${style.mision} `}
+          data-aos="fade-left"
+          data-aos-duration="3000"
+        >
+
+          <h4>¿Quienes somos?</h4>
+          <div className={style.subDivContain}>
+
+            <img src={camioneta} alt="" />
+            <p>
+              Somos una empresa dedicada al servicio, mantenimiento y reparación de unidades frigoríficas para el transporte de cargas, siendo un eslabón fundamental en la cadena de frio de productos alimenticios.
+              Thercarr es una empresa fundada en el año 2001 dedicada a la refrigeración para el transporte, que actualmente somos agentes de servicios y garantías de Capello ( Thermo King Argentina)
+              Contamos con stock en todos los repuestos, servicios de auxilio en ruta como así una linea de comunicación 24/7.
+            </p>
+          </div>
+        </div>
         <div
           className={`${style.divContain} ${style.mision} `}
           data-aos="fade-right"
@@ -40,8 +58,7 @@ const About = () => {
             <img src={truckred} alt="" />
             <p>
               Thercarr se visualiza como un líder en la industria de refrigeración para el transporte en
-              Argentina, con un enfoque global y una presencia sólida en América del Sur, incluyendo 2 sucursales
-              estratégicas en Mendoza, Argentina, y 1 en Los Andes, Chile, en los próximos 15 años. Nuestra visión
+              Argentina, con un enfoque global y una presencia sólida en América del Sur. Nuestra visión
               es ser reconocidos por nuestra innovación constante, calidad superior y un compromiso inquebrantable
               con la sostenibilidad, elevando así los estándares de la industria.
             </p>
