@@ -3,6 +3,8 @@
 .AboutContain {
   font-family: "Oswald", sans-serif;
   background-color: #b9b9b9d5;
+  background-image: url("../../assets/Tk.png");
+  background-size: cover;
 }
 
 .dataContain {
@@ -39,23 +41,28 @@
   width: 30%;
   border-radius: 10px;
   object-fit: cover;
+  height:auto;
 }
 
-@media (max-width: 1300px) {
- 
+@media (max-width: 1200px) {
   .subDivContain {
-    flex-direction: column;
+ 
     justify-content: center;
     align-items: center;
     width: 100%;
     border-radius: 10px;
   }
+
+  .subDivContain p {
+    font-size: 1rem;
+  }
   .subDivContain img {
-    display: none;
+ 
+    object-fit:cover ;
   }
 }
 
-@media (max-width: 870px) {
+@media (max-width: 800px) {
   .dataContain {
     margin-inline: 1rem;
     gap: 1rem;
@@ -71,11 +78,26 @@
   }
   .subDivContain p {
     font-size: 1rem;
+    background-color: #0399d98e;
+    border-radius: 10px;
   }
   .divContain h4 {
     font-size: 1.5rem;
   }
   .subDivContain img {
     display: none;
+  }
+
+  .mision {
+    background-image: url("../../assets/reparaciones.png");
+  }
+  .vision {
+    background-image: url("../../assets/truckRed.png");
+    background-size: cover;
+  }
+  .aquien {
+    background-image: url("../../assets/repuesto.png");
+    background-position: 0;
+    background-size: cover;
   }
 }

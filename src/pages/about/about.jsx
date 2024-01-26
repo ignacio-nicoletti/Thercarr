@@ -2,6 +2,8 @@ import {Footer} from '../../components/navbar/footer/footer';
 import {Navbar} from '../../components/navbar/navbar';
 import style from './about.module.css';
 import scannia from '../../assets/repuesto.png';
+import reparacion from "../../assets/reparaciones.png"
+import truckred from "../../assets/truckRed.png"
 
 const About = () => {
   return (
@@ -9,7 +11,7 @@ const About = () => {
       <Navbar />
       <div className={style.dataContain}>
         <div
-          className={style.divContain}
+          className={`${style.divContain} ${style.mision} `}
           data-aos="fade-right"
           data-aos-duration="3000"
         >
@@ -24,18 +26,18 @@ const About = () => {
               mantenimiento y la prevención en equipos de refrigeración de primera clase que superen las
               expectativas de nuestros clientes.
             </p>
-            <img src={scannia} alt="" />
+            <img src={reparacion} alt="" />
           </div>
         </div>
 
         <div
-          className={style.divContain}
+          className={`${style.divContain} ${style.vision} `}
           data-aos="fade-left"
           data-aos-duration="3000"
         >
           <h4>¿Qué visión tenemos?</h4>
           <div className={style.subDivContain}>
-            <img src={scannia} alt="" />
+            <img src={truckred} alt="" />
             <p>
               Thercarr se visualiza como un líder en la industria de refrigeración para el transporte en
               Argentina, con un enfoque global y una presencia sólida en América del Sur, incluyendo 2 sucursales
@@ -47,7 +49,7 @@ const About = () => {
         </div>
 
         <div
-          className={style.divContain}
+          className={`${style.divContain} ${style.aquien} `}
           data-aos="fade-right"
           data-aos-duration="3000"
         >
