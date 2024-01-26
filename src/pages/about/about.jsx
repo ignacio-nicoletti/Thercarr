@@ -1,9 +1,9 @@
 import {Footer} from '../../components/navbar/footer/footer';
 import {Navbar} from '../../components/navbar/navbar';
 import style from './about.module.css';
-import scannia from '../../assets/repuesto.png';
-import reparacion from '../../assets/reparaciones.png';
-import truckred from '../../assets/truckRed.png';
+import scannia from '../../assets/quienyComo.jpg';
+import cotoCamioneta from '../../assets/cotoCamioneta.jpg';
+import vision from '../../assets/vision.jpg';
 import camioneta from '../../assets/thercarCamioneta.jpg';
 
 const About = () => {
@@ -44,7 +44,7 @@ const About = () => {
               mantenimiento y la prevención en equipos de refrigeración de primera clase que superen las
               expectativas de nuestros clientes.
             </p>
-            <img src={reparacion} alt="" />
+            <img src={cotoCamioneta} alt="" />
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const About = () => {
         >
           <h4>¿Qué visión tenemos?</h4>
           <div className={style.subDivContain}>
-            <img src={truckred} alt="" />
+            <img src={vision} alt="" />
             <p>
               Thercarr se visualiza como un líder en la industria de refrigeración para el transporte en
               Argentina, con un enfoque global y una presencia sólida en América del Sur. Nuestra visión
