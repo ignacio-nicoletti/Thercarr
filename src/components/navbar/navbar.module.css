@@ -1,6 +1,6 @@
 .contain {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #ffffffe8;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -13,6 +13,7 @@
 .logo img {
   width: 5rem;
   padding-left: 6rem;
+  border-top-right-radius: 20px;
 }
 
 .routes {

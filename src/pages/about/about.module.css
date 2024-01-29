@@ -37,10 +37,15 @@
   display: flex;
   gap: 20px;
   text-align: start;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.subDivContain p{
+  width: 50%;
 }
 
 .subDivContain img {
-  width: 300px;
+  width: 30%;
   border-radius: 10px;
   object-fit: cover;
   height: 300px;
@@ -56,6 +61,7 @@
 
   .subDivContain p {
     font-size: 1rem;
+    width: 100%;
   }
   .subDivContain img {
     object-fit: cover;
@@ -75,6 +81,8 @@
 
   .subDivContain {
     text-align: center;
+    width: 100%;
+    padding:0
   }
   .subDivContain p {
     font-size: 1rem;
